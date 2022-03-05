@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="title">
+        <h2>Products Managment System</h2>
+    </div>
+    <div class="create">
+
+        <div class="title">
+            <input type="text" id = "title" placeholder="Title" class = "empty">
+        </div>
+        <div class="price">
+            <input type="number" id = "price" placeholder="Price">
+            <input type="number" id = "sellprice" placeholder="Sell Price" class = "empty">
+            <small class="total" id="total">0</small>
+        </div>
+        <div class="count">
+            <input type="number" id = "count" placeholder="Count">
+        </div>
+        <div class="category">
+            <input type="text" id = "category" placeholder="Category">
+        </div>
+        <button id="create">Create</button>
+    </div>
+
+
+    <div class="search">
+        <input type="text" placeholder="Search" id="search">
+        <div class="buttons">
+        <button id="byName">Search By Name</button>
+        <button id="byBrand">Search By Brand</button>
+    </div>
+</div>
+
+<!-- <div class="test1">
+    <button id="tes">testtttt</button>
+</div> -->
+
+<div class="tables">
+    <div class="numofitems"></div>
+    <table >
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Sell Price</th>
+            <th>Brand</th>
+            <th>Amount</th>
+            <th>Add</th>
+            <th>Decrease</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+        <tbody id="tbody">
+        </tbody> 
+    </table>
+</div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
