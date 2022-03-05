@@ -293,3 +293,4 @@ searchByName.addEventListener("click",namee)
 searchByName.addEventListener("click",search)
 searchByBrand.addEventListener("click",search)
 searchInput.addEventListener("keyup",search)
+afterLoad();
